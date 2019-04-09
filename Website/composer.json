@@ -1,0 +1,14 @@
+{
+	"require": {
+		"php": ">=5.6.0",
+		"ext-geoip": "*",
+		"ext-intl": "*",
+		"delight-im/foundation-core": "^4.0",
+		"jenssegers/agent": "^2.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	}
+}
