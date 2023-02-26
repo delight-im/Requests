@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS `requests` (
 
 CREATE TABLE IF NOT EXISTS `response_templates` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
   `content_type` varchar(255) DEFAULT NULL,
   `content_text` longtext,
   `redirect_url` text,
